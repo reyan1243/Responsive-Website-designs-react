@@ -19,7 +19,9 @@ function Cards() {
             "1 Granted User",
             "Send up to 2 GB"]} />
 
-        <Card img={double}
+        <Card 
+        bgColor={"bg-green-50"} 
+        img={double}
           head={"Two Users"}
           price={"$21"}
           desc={[
